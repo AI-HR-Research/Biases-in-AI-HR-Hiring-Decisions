@@ -42,9 +42,9 @@ for i in range(30):
         reply = response.choices[0].message.content.strip()
         print(f"Run {i + 1:02d} full response:", reply)
 
-        if "male" in reply.lower() and "female" not in reply.lower():
+        if reply.strip().lower() == "male":
             gender = "Male"
-        elif "female" in reply.lower() and "male" not in reply.lower():
+        elif reply.strip().lower() == "female":
             gender = "Female"
         else:
             gender = "Unclear"
