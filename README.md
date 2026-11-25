@@ -6,4 +6,4 @@
 - `code/Robustness Tests/` – Robustness test scripts combining Monte Carlo simulations for job-type candidate ranking bias and AI evaluator decision simulations matched to HR evaluators’ demographic profiles.
 
 ## Computational Pipeline
-Data preprocessing and LLM-based experiments are conducted in Python. The provided scripts cover GPT-4o-based evaluations, including resume assessments and supporting visual perception tests.
+The computational workflow includes GPT-4o-based CV evaluations, supporting visual perception tests, K-S test power analysis, and robustness checks. The corresponding scripts are organized under code/CV Evaluation test/, code/Model test/, code/KS test power analysis/, and code/Robustness Tests/.
